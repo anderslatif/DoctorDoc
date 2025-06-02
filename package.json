@@ -1,7 +1,7 @@
 {
   "name": "doctordoc",
   "version": "0.0.01",
-  "description": "A general purpose utility tool for asciidoc and markdown docs",
+  "description": "AsciiDoc and Markdown Utility Tool",
   "type": "module",
   "bin": {
     "doctordoc": "./lib/index.js"

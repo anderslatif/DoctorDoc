@@ -1,6 +1,6 @@
 # DoctorDoc
 
-A general purpose utility tool for asciidoc and markdown docs
+AsciiDoc and Markdown Utility Tool.
 
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Install Size][npm-install-size-image]][npm-install-size-url]
