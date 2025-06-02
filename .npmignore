@@ -1,0 +1,9 @@
+# Ignore all files and directories
+*
+
+# Include necessary files and directories
+!lib/
+!package.json
+!README.md
+!LICENSE
+!doctordoc_logo.png
