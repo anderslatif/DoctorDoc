@@ -1,6 +1,6 @@
 {
   "name": "doctordoc",
-  "version": "0.0.01",
+  "version": "0.0.02",
   "description": "AsciiDoc and Markdown Utility Tool",
   "type": "module",
   "bin": {

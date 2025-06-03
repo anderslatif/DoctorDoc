@@ -40,6 +40,8 @@ It ignores the following files: `combined_course_markdown.md`.
 
 This is mainly a CLI to aid with validation in Git repositories. `--md-validate-links` includes checks for links that are valid in the browser. 
 
+In `.adoc` files create a line like this `**Taught on**: <weekday>` if dates are present in a table. This is used to validate that the date exists within the current calendar year. Dates can be defined like `Feb 2nd`, `February 2nd` or with slight variations thereof.
+
 ---
 
 [npm-version-image]: https://img.shields.io/npm/v/doctordoc.svg
