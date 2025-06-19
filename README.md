@@ -20,13 +20,14 @@ $ doctordoc
 
 ## Flags
 
-| Flag                      | Description                                                                   |
-|---------------------------|-------------------------------------------------------------------------------|
-| `--all`                   | Run all checks. Default if no other option is set.                           |
-| `--browse [path]`         | Open repository URL for file/directory. Defaults to the current directory if no path provided. |
-| `--adoc-validate-links`   | Validate that AsciiDoc links exist on the file system.                        |
-| `--adoc-validate-dates`   | Validate that dates exist within the calendar year.                           |
-| `--md-validate-links`     | Validate that Markdown file links exist on the file system.                   |
+| Flag                                     | Description                                                                             | Run Mode                                                                           |
+|------------------------------------------|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| `--all`                                  | Run all checks.                                                                         | Default if no other flag is set. Doesn't run `--browse`, `--view-github-markdown`  |
+| `--browse [path]`                        | Open repository URL for file/directory.                                                 | Defaults to the current directory if no path provided. Only runs this command.     |
+| `--preview-github-markdown <file_path>`  | Send a markdown file to the GitHub API and see the generated HTML file in your browser. | Only runs this command.                                                            |
+| `--adoc-validate-links`                  | Validate that AsciiDoc links exist on the file system.                                  |                                                                                    |
+| `--adoc-validate-dates`                  | Validate that dates exist within the calendar year.                                     |                                                                                    |
+| `--md-validate-links`                    | Validate that Markdown file links exist on the file system.                             |                                                                                    |
 
 Doctordoc searches for file extensions ending with `.adoc` and `.md` in the current directory and subdirectories.
 

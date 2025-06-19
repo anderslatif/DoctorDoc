@@ -1,6 +1,6 @@
 {
   "name": "doctordoc",
-  "version": "0.0.02",
+  "version": "0.0.03",
   "description": "AsciiDoc and Markdown Utility Tool",
   "type": "module",
   "bin": {
@@ -36,6 +36,7 @@
   "dependencies": {
     "cli-table": "^0.3.11",
     "colors": "^1.4.0",
-    "commander": "^12.0.0"
+    "commander": "^12.0.0",
+    "github-markdown-css": "^5.8.1"
   }
 }
