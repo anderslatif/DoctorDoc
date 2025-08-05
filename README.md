@@ -25,8 +25,7 @@ Running `doctordoc` without any flags is the same as running it with the `--all`
 
 | Flag                                     | Description                                                                             | Run Mode                                                                           |
 |------------------------------------------|-----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| `--all`                                  | Run all checks.                                                                         | Default if no other flag is set. Doesn't run `--browse`, `--view-github-markdown`  |
-command.                                                            |
+| `--all`                                  | Run all checks.                                                                         | Default if no other flag is set. Doesn't run `--browse`, `--view-github-markdown` command.                                                            |
 | `--adoc-validate-links`                  | Validate that AsciiDoc links exist on the file system.                                  |                                                                                    |
 | `--adoc-validate-dates`                  | Validate that dates exist within the calendar year.                                     |                                                                                    |
 | `--md-validate-links`                    | Validate that Markdown file links exist on the file system.                             |                                                                                    |
