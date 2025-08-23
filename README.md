@@ -52,11 +52,22 @@ When one of these flags is set, the default flags are not run.
 
 ---
 
+## Taught on
+
+In `.adoc` files is it possible to create a line like this `**Taught on**: <weekday>` to validate dates if dates are present in a table.
+
+This works by validating that the date exists within the current calendar year. Dates can be defined like `Feb 2nd`, `February 2nd` or with slight variations thereof.
+
+It is possible to hide the `Taught on` line in a comment. It will still validate the dates.
+
+It's possible to have multiple weekdays separated by commas.
+
+---
+
 ## Design Decisions
 
 This is mainly a CLI to aid with validation in Git repositories. `--md-validate-links` includes checks for links that are valid in the browser. 
 
-In `.adoc` files create a line like this `**Taught on**: <weekday>` if dates are present in a table. This is used to validate that the date exists within the current calendar year. Dates can be defined like `Feb 2nd`, `February 2nd` or with slight variations thereof.
 
 ---
 
